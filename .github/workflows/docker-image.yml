@@ -44,7 +44,7 @@ jobs:
           password: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Docker Build and Push (Cloudflare R2 Support)
-        uses: docker/build-push-action@v6
+        uses: docker/build-push-action@v7
         with:
           context: .
           tags: |
@@ -57,7 +57,7 @@ jobs:
           outputs: type=image,push=true
 
       - name: Docker Build and Push (Cloudflare R2 Support)
-        uses: docker/build-push-action@v6
+        uses: docker/build-push-action@v7
         with:
           context: .
           tags: |
@@ -70,7 +70,7 @@ jobs:
           outputs: type=image,push=true
 
       - name: Docker Build and Push (with Nginx)
-        uses: docker/build-push-action@v6
+        uses: docker/build-push-action@v7
         with:
           context: .
           tags: |
@@ -83,7 +83,7 @@ jobs:
           outputs: type=image,push=true
 
       - name: Docker Build and Push (Focalboard Only)
-        uses: docker/build-push-action@v6
+        uses: docker/build-push-action@v7
         with:
           context: .
           tags: |
