@@ -44,7 +44,7 @@ RUN apt-get update && \
     rm -rf /var/lib/apt/lists/*
 
 # 최종 이미지 설정
-FROM nginx:1.26.0 AS final
+FROM nginx:1.31.5 AS final
 WORKDIR /opt/focalboard
 COPY --from=layershorter /usr/bin/tini /usr/bin/tini
 COPY --from=layershorter --chown=nobody:nogroup /opt/focalboard/ /opt/focalboard
