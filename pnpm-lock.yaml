@@ -1,4 +1,4 @@
-lockfileVersion: "6.0"
+lockfileVersion: '6.0'
 
 settings:
   autoInstallPeers: true
@@ -7,14 +7,12 @@ settings:
 devDependencies:
   prettier:
     specifier: ^3.2.5
-    version: 3.2.5
+    version: 3.9.8
 
 packages:
-  /prettier@3.2.5:
-    resolution:
-      {
-        integrity: sha512-3/GWa9aOC0YeD7LUfvOG2NiDyhOWRvt1k+rcKhOuYnMY24iiCphgneUfJDyFXd6rZCAnuLBv6UeAULtrhT/F4A==
-      }
-    engines: { node: ">=14" }
+
+  /prettier@3.9.8:
+    resolution: {integrity: sha512-WRFq3Wn3WId7LLROfMLdH7xaFr2jR62wU8nLO6rQUOLOxNZUviyJQs1M0iIhLexSFy+L+w0ch66wtoO2jRjG0A==}
+    engines: {node: '>=14'}
     hasBin: true
     dev: true
